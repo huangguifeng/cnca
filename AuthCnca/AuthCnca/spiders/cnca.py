@@ -85,7 +85,6 @@ class CncaSpider(RedisSpider):
         except Exception as e:
             print '[INFO]:',e
 
-
     def parse_cert(self,response):
         '''
         获取到证书列表
